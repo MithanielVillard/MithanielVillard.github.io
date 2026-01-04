@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <title>portfolioOS - Mithaniel V.</title>
+      <script type="module" crossorigin src="/assets/os-DmhoCUn_.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/config-n_D7gsT8.js">
+      <link rel="stylesheet" crossorigin href="/assets/os-sWfE9mNu.css">
+    </head>
+    <body style="background-color: #007E7D; overflow: hidden; overflow-x: hidden;" ondragstart="return false" draggable="false"
+            ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();"
+            ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();"
+            ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
+
+        <div class="vignette" style="    position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 200px rgba(0,0,0,1.9) inset;
+            pointer-events: none;
+            z-index: 10;">
+        </div>
+        <div id="content" class="crt" hidden>
+            <div id="quit-desktop">
+                <img src="/images/win-floppy-logo.png"/>
+                <p>Project <br/> Selection</p>
+            </div>
+            <dialog class="is-sm" id="window">
+                <div class="dialog-header">
+                    <h2 ondragstart="return false;" ondrop="return false;">About this project</h2>
+                    <button class="close-btn" onclick="parent.leaveOS();">X</button>
+                </div>
+                <div class="dialog-body">
+                    <div class="slot">
+                        <div id="page-content">
+                            <h1 id="title">Chisel</h1>
+                            <hr style="margin-top: 20px; margin-bottom: 10px;"/>
+                            <span id="description" style="padding-top: 5px;"></span>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
+            <div class="footer toolbar">
+                <button class="start-btn"><img width="26px" height="26px" src="/images/win-start-logo.png"></img>Start</button>
+                <button id="clock" class="is-active start-btn"><img width="26px" height="26px" src="/images/win-sound-logo.png"></img>12:30</button>
+            </div>
+        </div>
+    </body>
+</html>
